@@ -1,5 +1,5 @@
 .header {
-  padding: 50px 110px;
+  padding: 25px 50px 25px 110px;
   &-nav-menu {
     list-style: none;
     margin: 0;
@@ -40,6 +40,15 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+  }
+  &-login-user-name {
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
   }
   &-notification {
     width: 449px;

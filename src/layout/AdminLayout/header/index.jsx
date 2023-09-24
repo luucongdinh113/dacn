@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import logo from "../../../assets/logo/logo.svg";
 import iconsearch from "../../../assets/icon/Union.svg";
@@ -36,7 +36,8 @@ function Header() {
                 className="header-admin-center-seacrh-form-group-input"
                 placeholder="Tìm kiếm"
               />
-              <label htmlFor="search">
+              <span className="header-span"></span>
+              <label className= "header-search" htmlFor="search">
                 <img src={iconsearch} alt="" />
               </label>
             </div>
@@ -56,7 +57,7 @@ function Header() {
           công việc mới
         </button> */}
         <div className="header-admin-center-bell position-relative">
-          <img src={bell} alt="" />
+          <img className="header-bell" src={bell} alt="" />
           <span className="header-admin-center-bell-number">1</span>
         </div>
       </div>

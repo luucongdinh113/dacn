@@ -120,7 +120,7 @@ function Header() {
             </div>
           )}
         </div>
-        <div className="header-login">
+        <div className="header-login d-flex gap-2 align-items-center">
           {/* <Link
             to="#"
             className="header-login-link text-white text-decoration-none"
@@ -133,6 +133,9 @@ function Header() {
               alt=""
               className="header-login-avatar-photo"
             />
+          </div>
+          <div className="header-login-name">
+              <div className="header-login-user-name">An tony</div>
           </div>
         </div>
       </div>
